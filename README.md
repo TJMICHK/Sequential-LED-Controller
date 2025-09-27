@@ -2,7 +2,7 @@
 Arduino sketch that steps multiple LEDs in sequence with adjustable timing.
 
 ## Demo
-(Short GIF or video link)
+- Find in .media file
 
 ## Hardware
 - Arduino UNO R3 (edit if different)
