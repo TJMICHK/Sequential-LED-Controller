@@ -5,12 +5,12 @@ Arduino sketch that steps multiple LEDs in sequence with adjustable timing.
 - Find in .media file
 
 ## Hardware
-- Arduino UNO R3 (edit if different)
+- Arduino UNO R3
 - 5 LEDs + 5 220 Ω resistors
 - Breadboard + jumper wires
 
 ## How to Run
-1. Open `src/project1_sequential_lights.ino` in the Arduino IDE.
+1. Open `src/project1_sequential_lights/project1_sequential_lights.ino` in the Arduino IDE.
 2. Select your board and COM port.
 3. Click **Upload**.
 
