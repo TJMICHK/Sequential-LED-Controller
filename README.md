@@ -1,7 +1,7 @@
 # Sequential LED Controller w/ LED Level Detector
 Arduino sketch that steps multiple LEDs in sequence with adjustable timing, and responds if LED Levels are above or below a set value.
 
-## Demo
+## Demos
 - Find in .media file
 
 ## Hardware
