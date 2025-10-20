@@ -12,7 +12,7 @@ Arduino sketch that steps multiple LEDs in sequence with adjustable timing, and 
 - Breadboard + jumper wires
 
 ## How to Run
-1. Open `src/project1_sequential_lights.ino` in the Arduino IDE.
+1. Open `src/project1_sequential_lights/project1_sequential_lights.ino` in the Arduino IDE.
 2. Select your board and COM port.
 3. Click **Upload**.
 
