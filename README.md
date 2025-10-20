@@ -1,12 +1,14 @@
-# Sequential LED Controller
-Arduino sketch that steps multiple LEDs in sequence with adjustable timing.
+# Sequential LED Controller w/ LED Level Detector
+Arduino sketch that steps multiple LEDs in sequence with adjustable timing, and responds if LED Levels are above or below a set value.
 
 ## Demo
 - Find in .media file
 
 ## Hardware
-- Arduino UNO R3
-- 5 LEDs + 5 220 Ω resistors
+- Arduino UNO R3 (edit if different)
+- 7 LEDs + 8 220 Ω resistors
+- Piezo Passive Buzzer
+- KY-023 Analog Joystick Module
 - Breadboard + jumper wires
 
 ## How to Run
@@ -17,13 +19,4 @@ Arduino sketch that steps multiple LEDs in sequence with adjustable timing.
 ## Features
 - Remapping of joystick VRx to light up to 5 total LEDs, or little as 0 LEDs.
 - Simple pin mapping for easy rewiring
-
-## What I Learned
-- State machine timing with `delay()`
-- Organizing code for multiple outputs
-- Using different functions related to different hardware
-
-## Next Steps
-- [ ] Slower/Delayed input of VRx in order to create smoother lighting effect.
-- [ ] Use of VRx to light specific LEDs
-- [ ] Creating a button to switch between lighting specific or multiple LEDs with VRx
+- Piezo Passive Buzzer + 2 LEDs to alarm when LED levels cross a specific threshold.
